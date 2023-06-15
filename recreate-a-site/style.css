@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  color: rgb(84, 84, 84);
+}
+
+.container {
+  /* 992 px */
+  /* 
+  em rem responsive units
+  */
+  width: 62rem;
+  margin: 0 auto;
+}
+
+/* utility classes */
+.flex {
+  /* flex 3 amigos */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.avatar {
+  width: 50px;
+}
+
+.text-black {
+  color: black;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.btn {
+  border: 0;
+  padding: 1rem 1.5rem;
+  background-color: #ef7c0d;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.byline-container * {
+  margin: 0;
+  padding: 0;
+}
+
+.byline {
+  font-size: small;
+}
+
+/* header classes */
+header {
+}
+
+.logo {
+  width: 100px;
+}
+
+nav {
+  padding: 0.5rem 0;
+}
+
+nav > ul {
+  list-style: none;
+  font-size: small;
+}
+
+/* hero classes */
+#hero,
+#features {
+  margin-bottom: 4rem;
+}
+
+.hero-image {
+  flex: 2;
+}
+
+.hero-content {
+  flex: 3;
+}
+
+/* features classes */
+#features {
+}
+
+.feature {
+  flex: 1;
+}
+
+/* footer classes */
+footer {
+}
