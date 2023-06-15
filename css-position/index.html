@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Position</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>
+        First rule of the position property - Don't abuse the position property!
+      </h2>
+      <h1 class="navbar">CSS Position</h1>
+      <h3>The Position Property can have 5 values:</h3>
+      <ol>
+        <li>Static</li>
+        <li>Relative</li>
+        <li>Fixed</li>
+        <li>Absolute</li>
+        <li>Sticky</li>
+      </ol>
+      <p>
+        Once we put a position on an element, we can adjust its position with
+        the top, right, bottom, and left properties.
+      </p>
+      <h2>Position - Static</h2>
+      <p>The default value of an element's position property.</p>
+      <div class="box static"></div>
+      <h2>Position - Relative</h2>
+      <p>The element is positioned relatively to its normal position.</p>
+      <div class="box relative"></div>
+      <h2>Position - Fixed</h2>
+      <p>The element is positioned relatively to the viewport.</p>
+      <div class="cookie">
+        <h3>Legalese</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+          pariatur voluptate corrupti ea!
+        </p>
+      </div>
+      <h2>Position - Absolute</h2>
+      <p>
+        The element is positioned relatively to its nearest positioned ancestor.
+        If there is no positioned ancestor, the element is positioned relative
+        to the document body.
+      </p>
+      <h3>
+        An element with position:absolute should always have a parent with
+        position: relative.
+      </h3>
+      <div class="box relative">
+        <div class="circle"></div>
+      </div>
+      <h2>Position - Sticky</h2>
+      <p>
+        The element is positioned relative to the user's scroll position. The
+        navbar on this page is positioned using position:sticky.
+      </p>
+      <p>Sticky toggles between relative and fixed.</p>
+    </div>
+  </body>
+</html>
