@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/styles.css" />
+    <title>Tailwind CSS</title>
+  </head>
+  <body class="bg-slate-900/95">
+    <div class="flex h-screen flex-col">
+      <header class="mb-4 bg-slate-800 text-slate-100">
+        <div class="px-4 py-4 sm:container">
+          <h1 class="text-2xl">
+            tailwind<span class="text-blue-300">css</span>
+          </h1>
+        </div>
+      </header>
+      <main class="flex-grow px-4 sm:container">
+        <div class="grid h-full place-content-center">
+          <article>
+            <h2
+              class="mb-4 bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-6xl font-extrabold text-transparent md:text-8xl">
+              tailwindcss
+            </h2>
+            <button
+              class="w-full rounded-lg bg-blue-900/70 px-6 py-2 text-blue-300 transition-all hover:bg-blue-900 hover:text-blue-200">
+              a tailwind button
+            </button>
+          </article>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
